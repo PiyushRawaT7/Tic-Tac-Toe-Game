@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>TIC TAC TOE</h1>
+        </header>
+        <hr>
+        <section class="score">
+            <div class="score-board">
+                <p>X Score:- <span id="x">0</span></p>
+            </div>
+
+            <div class="score-board">
+                <p>Winner:- <span id="win"></span></p>
+            </div>
+
+            <div class="score-board">
+                <p>0 Score:- <span id="zero">0</span></p>
+            </div>
+        </section>
+
+        <div class="game-container">
+
+            <div class="game">
+                <audio id="clickSound" src="click.wav"></audio>
+                <audio id="winSound" src="win.wav"></audio>
+                <button class="box">_</button>
+                <button class="box">_</button>
+                <button class="box">_</button>
+                <button class="box">_</button>
+                <button class="box">_</button>
+                <button class="box">_</button>
+                <button class="box">_</button>
+                <button class="box">_</button>
+                <button class="box">_</button>
+            </div>
+        </div>
+
+        <div id="reset">
+            <button>Reset</button>
+        </div>
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
